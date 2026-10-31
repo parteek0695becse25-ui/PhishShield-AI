@@ -1,0 +1,14 @@
+node_modules/
+dist/
+ai-engine/.venv/
+__pycache__/
+*.pyc
+backend-java/target/
+data/
+logs/
+.run/
+.tools/
+.setup-complete
+.env
+*.log
+.idea/

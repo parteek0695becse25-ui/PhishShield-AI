@@ -1,0 +1,10 @@
+# Sample URLs for the URL Scanner. The scanner never opens these addresses.
+
+Normal HTTPS (expected: LOW)        https://www.wikipedia.org/wiki/Phishing
+Official brand domain (LOW)         https://www.amazon.in/gp/help
+IP-based address (HIGH)             http://192.168.10.5/secure/login/verify-account.php
+Brand in wrong domain (CRITICAL)    https://paypal.com.account-verify.xyz/signin
+Look-alike spelling (HIGH+)         https://www.paypa1.com/login
+Shortened link (MEDIUM)             https://bit.ly/3abcXYZ
+@ trick (HIGH+)                     https://www.sbi.co.in@evil-site.top/login
+Invalid URL (error 400)             not a real url
